@@ -7,10 +7,10 @@ typedef long long ll;
 
 int main(){
     ll a;
-   
-	while(scanf("%lld",&a)!=EOF){
-    printf("NT10=%lld\n",a/10);
-    printf("NT5=%lld\n",(a%10)/5);
-    printf("NT1=%lld\n",a%5);
+
+    while(scanf("%lld",&a)!=EOF){
+    	printf("NT10=%lld\n",a/10);
+    	printf("NT5=%lld\n",(a%10)/5);
+    	printf("NT1=%lld\n",a%5);
     }
 }
